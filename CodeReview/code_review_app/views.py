@@ -1,3 +1,17 @@
 from django.shortcuts import render
 
-# Create your views here.
+class HomeView(TemplateView):
+	pass
+
+class LoginView(TemplateView):
+	pass
+
+class RegisterView(TemplateView):
+	pass
+
+class ProfileView(TemplateView):
+	pass
+
+class QuestionsView(TemplateView):
+	pass
+

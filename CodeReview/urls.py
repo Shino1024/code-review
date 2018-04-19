@@ -16,9 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-#from 
+from code_review_app import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-#		url(r"^$", TemplateView.as_view
+		url(r"^$"),
+		url(r"^login/"),
+		url(r"^register/"),
+		url(r"^profile/"),
+		url(r"^questions/"),
 ]
